@@ -1,0 +1,72 @@
+.homeBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.homeBtn button {
+  margin: 5px;
+  background-color: #0F0A0A;
+  color: #F5EFED;
+  width: 130px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.cardContainer {
+  max-height: 520px;
+  max-width: 400px;
+  -webkit-box-shadow: 1px 1px 4px #333;
+          box-shadow: 1px 1px 4px #333;
+  border-radius: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F5F3BB;
+}
+
+.cardContainer .card {
+  color: #E63946;
+}
+
+.cardContainer .card .conditionsOverview {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.cardContainer img {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 220px;
+}
+
+.cardContainer h4 {
+  text-transform: uppercase;
+  color: #E63946;
+  font-size: 2em;
+}
+/*# sourceMappingURL=currentWeather.css.map */

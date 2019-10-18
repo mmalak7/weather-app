@@ -1,0 +1,54 @@
+.homeBtn {
+    display: flex;
+    justify-content: center;
+
+    button {
+        margin: 5px;
+        background-color: #0F0A0A;
+        color: #F5EFED;
+        width: 130px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+}
+
+.cardContainer {
+    max-height: 520px;
+    max-width: 400px;
+    box-shadow: 1px 1px 4px #333;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F5F3BB;
+
+    .card {
+        color: #E63946;
+
+        .conditionsOverview {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 1.5em;
+            font-weight: 600;
+        }
+
+    }
+
+    img {
+        margin-top: 20px;
+        width: 100%;
+        max-width: 220px;
+    }
+
+    h4 {
+        text-transform: uppercase;
+        color: #E63946;
+        font-size: 2em;
+        
+    }
+}

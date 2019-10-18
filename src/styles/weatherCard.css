@@ -1,0 +1,76 @@
+body {
+  background-color: #1D3557;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #F5EFED;
+}
+
+.instructions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #F5EFED;
+  font-size: 1.8em;
+}
+
+.locationInput {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.locationInput input {
+  margin: 5px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: #1D3557;
+  outline: none;
+}
+
+.locationInput input::-webkit-input-placeholder {
+  color: #F5EFED;
+}
+
+.locationInput input:-ms-input-placeholder {
+  color: #F5EFED;
+}
+
+.locationInput input::-ms-input-placeholder {
+  color: #F5EFED;
+}
+
+.locationInput input::placeholder {
+  color: #F5EFED;
+}
+
+.locationInput button {
+  margin: 5px;
+  background-color: #0F0A0A;
+  color: #F5EFED;
+  width: 130px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=weatherCard.css.map */

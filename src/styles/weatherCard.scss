@@ -1,0 +1,51 @@
+body {
+    background-color: #1D3557;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+
+    h2 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 2em;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        color: #F5EFED;
+    }
+}
+
+.instructions {
+    display: flex;
+    justify-content: center;
+    color: #F5EFED;
+    font-size: 1.8em;
+}
+
+.locationInput {
+    display: flex;
+    justify-content: center;
+
+    input {
+        margin: 5px;
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: groove;
+        background-color: #1D3557;
+        outline: none;
+    }
+
+    input::placeholder {
+        color: #F5EFED;
+    }
+
+    button{
+        margin: 5px;
+        background-color: #0F0A0A;
+        color: #F5EFED;
+        width: 130px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+}
