@@ -23,3 +23,6 @@ Just a simple weather-app created in the purpose of learning ReactJS with backen
 
 [weather-app]()
 
+#### Source
+
+Project developed by [Create React App](https://github.com/facebook/create-react-app)
