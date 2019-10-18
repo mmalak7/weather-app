@@ -17,7 +17,6 @@ Just a simple weather-app created in the purpose of learning ReactJS with backen
 * How to create components in ReactJs 
 * Check different way of use Route in ReactJs
 * Implementation of SCSS in ReactJS project
-* How to implement the code into github.io
 
 ### Preview
 
